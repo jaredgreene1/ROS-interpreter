@@ -1,4 +1,32 @@
-Here is how you pick up a VERY redamentry interpreter:
+# Setup
+Install `virtualenv` and `virtualenvwrapper:
+    - [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
+    - [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/install.html)
+
+Create your virtualenv:
+```sh
+mkvirtualenv ros
+```
+
+To activate or dectivate, do the following:
+```sh
+workon ros // activates ros virtualenv
+deactivate // deactivates current virtualenv
+```
+
+Install requirements:
+```sh
+pip install -r requirements.txt
+```
+
+Now run the app:
+```sh
+python app.py
+```
+
+---
+
+Here is how you pick up a VERY rudimentary interpreter:
 
 1) Start the application with 'python parser.py' which uses cherrypy to pick up a very basic server listening for an HTTP request containing JSON"
 2) Now, since the webhook URL for API.AI needs to be a public url, we use ngrok which establishes a public url that tunnels the request to our locally hosted server by running './ngrok http [PORT #]'
