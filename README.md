@@ -1,7 +1,7 @@
 # Setup
 Install `virtualenv` and `virtualenvwrapper:
-    - [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
-    - [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/install.html)
+- [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
+- [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/install.html)
 
 Create your virtualenv:
 ```sh
